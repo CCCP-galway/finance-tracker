@@ -33,3 +33,8 @@ build/
 .vscode/
 
 .gradle/
+
+node_modules/
+dist/
+application-local.yml
+.env
