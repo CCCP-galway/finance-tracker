@@ -1,6 +1,8 @@
 Repo: [https://github.com/cool-coders-club-party/finance-tracker.git](https://github.com/cool-coders-club-party/finance-tracker.git)
 Clone into it: `git clone https://github.com/cool-coders-club-party/finance-tracker.git`
 
+> **Superseded architecture note (September 2026):** this document records the original single-application setup. The feature packages described below have now been promoted to separate Maven/Spring Boot services. Follow [Architecture decision: service-per-capability backend](architecture-microservices.md) for the current layout, commands, ownership, and database rules. The Java 21/Maven/IntelliJ setup guidance in this document is still applicable.
+
 Nialls Fix to dependency issue:
 Go to: File → Project Structure → Project → SDK dropdown → Download JDK → version 21, vendor Eclipse Temurin → OK.
 Click right side Maven logo, reload icon, and reload all Maven.
@@ -159,4 +161,3 @@ Temurin is the pragmatic default:
 I had to change the repo to public and join an organization cool-coders-club-party to be able to use the ruleset without paying a fee. 
 
 ---
-
