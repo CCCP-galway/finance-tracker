@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: market-data-service
+  datasource:
+    url: jdbc:h2:mem:marketdata;MODE=PostgreSQL;DB_CLOSE_DELAY=-1
+    username: sa
+    password: ""
+  jpa:
+    hibernate:
+      ddl-auto: update
+server:
+  port: 8084
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
